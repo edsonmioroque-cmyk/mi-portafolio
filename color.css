@@ -1,0 +1,69 @@
+/* Estilos personalizados — Roque Mio Edson */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* Sección principal */
+#hero {
+  background: linear-gradient(135deg, #007bff 0%, #00c6ff 100%);
+  color: white;
+  padding-top: 100px;
+}
+
+#hero h1 {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Tarjetas */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Imagen de perfil */
+.rounded-circle {
+  max-width: 280px;
+}
+
+/* Enlaces del pie */
+footer a {
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+  opacity: 0.7;
+}
+
+/* Listas de formación */
+.list-group-item {
+  border-left: none;
+  border-right: none;
+  padding: 1.2rem 0;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #0066cc;
+  border-color: #0066cc;
+}
+
+.btn-primary:hover {
+  background-color: #0052a3;
+  border-color: #0052a3;
+}
